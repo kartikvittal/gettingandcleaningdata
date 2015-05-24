@@ -2,6 +2,18 @@
 
 ##    This document explains the columns of the final dataset
 
+###Brief Overview from the Original Dataset:
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+
+For each record it is provided:
+
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+
+##Final Dataset
 The final dataset has 180 rows and 88 columns
 
 subjectid: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
@@ -20,7 +32,8 @@ activityname: Links the class labels with their activity name. The values are as
 
 6 LAYING  laying
 
-measures: These are the values that were of interest for this exercise. These contain the variables that have the words MEAN and STD from the original dataset. There are a total of 86 measures and their names have been lower cased and dots have been removed. List provided below
+measures: These are the mean(average) values of the original measures that were of interest for this exercise. These contain the variables that have the words MEAN and STD from the original dataset. There are a total of 86 measures and their names have been lower cased and dots have been removed. List provided below.
+
 
 tbodyaccmeanx
 
